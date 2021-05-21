@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NguyenCongHuong_Kiemtra2_Bai2</string>
+    <string-array name="list_kh">
+        <item>Tiếng Anh</item>
+        <item>Kinh tế</item>
+        <item>Truyền thông</item>
+        <item>Công nghệ thông tin</item>
+    </string-array>
+</resources>

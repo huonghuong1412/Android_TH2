@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:contentPadding="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/idName"
+            android:textSize="22dp"
+            android:text="ABC - 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="Date: 9"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textSize="22dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major: 10"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/active"
+            android:textSize="22dp"
+            android:text="Active: 5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
